@@ -29,8 +29,9 @@
   ```
 
         Для подключения js необходим код
-        
+  ```html
        $(document).ready( function a() {
           $('.accordion').accordionBlock();
       }) ;
+  ```
 
