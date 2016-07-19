@@ -1,0 +1,32 @@
+ul.accordion, ul.accordion ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+
+ul.accordion a { display: block; text-decoration: none; }
+
+ul.accordion li { margin-top: 1px; }
+
+ul.accordion li a {
+    background: #333333;
+    color: #FFFFFF;
+    padding: 7px;
+    border-radius: 15px;
+
+}
+
+ul.accordion li a:hover{ background: #000000; }
+
+ul.accordion li ul li a {
+    background: ghostwhite;
+    color: #000000;
+    padding-left: 20px;
+}
+
+ul.accordion li ul li a:hover {
+    background: #AAAAB1;
+    border-left: 15px #000000 solid;
+    padding-left: 15px;
+}
