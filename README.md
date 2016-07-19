@@ -26,11 +26,13 @@
                 </ul>
             </li>
         </ul>
+        
       ```  
 
         Для подключения js необходим код:
-        ```html
+ ```html
        $(document).ready( function a() {
           $('.accordion').accordionBlock();
       }) ;
+      
 ```
